@@ -19,7 +19,5 @@ export const fetchCoordsDataFromGoogleSheet = async () => {
     }))
     .filter((item) => !Number.isNaN(item.style));
 
-  result.push({ style: 33333 });
-
   return result;
 };
